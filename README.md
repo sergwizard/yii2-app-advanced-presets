@@ -1,5 +1,38 @@
-Yii 2 Advanced Project Template
-===============================
+Yii 2 Advanced Project Template wich base presets
+=================================================
+
+Cloning a repository
+====================
+
+1. Under the repository name, click Clone or download.
+2. In the Clone with HTTPs section, click  to copy the clone URL for the repository.
+3. Open Terminal.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type this: 
+```
+git clone https://github.com/sergwizard/yii2-app-advanced-presets.git
+
+```
+6. This command will create a project folder "yii2-app-advanced-presets" inside the selected folder yii2-app-advanced-presets 
+7. Rename "yii2-app-advanced-presets" as you want
+8. Go to "yii2-app-advanced-presets" or new named folder in Terminal 
+```
+cd /opt/lampp/htdocs/yii2-app-advanced-presets
+
+```
+9. Update composer by
+```
+composer.json
+
+```
+
+What's been added in my preset version
+======================================
+
+....... part in working.......
+
+
+
 
 Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
 developing complex Web applications with multiple tiers.
@@ -7,12 +40,7 @@ developing complex Web applications with multiple tiers.
 The template includes three tiers: front end, back end, and console, each of which
 is a separate Yii application.
 
-The template is designed to work in a team development environment. It supports
-deploying the application in different environments.
-
-Documentation is at [docs/guide/README.md](docs/guide/README.md).
-
-[![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-app-advanced/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
+ Version](https://poser.pugx.org/yiisoft/yii2-app-advanced/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
 [![Total Downloads](https://poser.pugx.org/yiisoft/yii2-app-advanced/downloads.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
 [![Build Status](https://travis-ci.org/yiisoft/yii2-app-advanced.svg?branch=master)](https://travis-ci.org/yiisoft/yii2-app-advanced)
 

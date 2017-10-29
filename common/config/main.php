@@ -15,6 +15,8 @@ return [
             'class' => 'common\components\web\Request'
         ],
         
+        'geoip' => ['class' => 'sergwizard\geoIp\GeoIP'],
+        
         //для ссылок в админки во фронт и на оборот
         'urlManagerFrontend' => require(dirname(dirname (__DIR__ )).'/frontend/config/urlmanager.php'),
         'urlManagerBackend' =>  require(dirname(dirname (__DIR__ )).'/backend/config/urlmanager.php'),

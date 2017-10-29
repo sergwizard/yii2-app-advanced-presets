@@ -65,6 +65,14 @@ class SiteController extends Controller
         ];
     }
 
+    public function beforeAction($action)
+    {
+        $ip = Yii::$app->geoip->ip("208.113.83.165");
+        var_dump($ip->country->iso_code);die;
+
+        return parent::beforeAction($action);
+    }
+    
     /**
      * Displays homepage.
      *
