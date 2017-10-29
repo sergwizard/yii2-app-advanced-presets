@@ -22,7 +22,7 @@ cd /opt/lampp/htdocs/yii2-app-advanced-presets
 ```
 9. Update composer by
 ```
-composer.json
+composer update
 
 ```
 
