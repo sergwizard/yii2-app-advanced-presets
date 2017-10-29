@@ -1,4 +1,4 @@
-Yii 2 Advanced Project Template wich base presets
+Yii 2 Advanced Project Template with base presets
 =================================================
 
 Cloning a repository
